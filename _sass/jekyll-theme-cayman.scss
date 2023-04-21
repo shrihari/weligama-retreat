@@ -392,7 +392,7 @@ a {
   align-items: center;
 }
 
-.container {
+.container-flex {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -401,16 +401,16 @@ a {
   margin: 0 auto;
 }
 
-.image {
+.flex-1 {
   flex: 1;
   margin-right: 20px;
 }
 
-.image img {
+.flex-1 img {
   max-width: 100%;
 }
 
-.text {
+.flex-2 {
   flex: 1;
   // text-align: right;
 }
