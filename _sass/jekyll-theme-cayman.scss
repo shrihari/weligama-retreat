@@ -423,9 +423,11 @@ section {
 }
 
 .faq-item {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
-
+.faq-question {
+  margin-bottom: 0;
+}
 .faq-answer {
   margin-top: 0;
 }
