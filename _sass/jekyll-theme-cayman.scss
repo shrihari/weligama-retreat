@@ -384,3 +384,33 @@ a {
   max-width: 900px;
   margin: auto auto;
 }
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.text {
+  flex: 2;
+  text-align: right;
+}
