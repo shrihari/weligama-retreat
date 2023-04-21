@@ -376,3 +376,11 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+
+
+/* overrides */
+.project-tagline {
+  max-width: 900px;
+  margin: auto auto;
+}
